@@ -1,0 +1,51 @@
+specification {
+
+  element system {
+    notation ""
+    style {
+      shape rectangle
+      opacity 30%
+
+    }
+  }
+
+  element container {
+    notation "C4 element Container"
+    style {
+      shape rectangle
+    }
+  }
+
+  element component {
+    notation "C4 element Component"
+    style {
+      shape rectangle
+    }
+  }
+
+  element queue {
+    notation "Шина данных"
+    style {
+      shape queue
+      opacity 20%
+    }
+  }
+
+  element database {
+    notation "База данных"
+    style {
+      shape storage
+    }
+  }
+}
+
+model {
+    system = system "Система"{
+        ui = container 'Пользовательский интерфейс'
+    }
+    user = container "Пользователь"{
+
+    }
+
+    user -> system.ui 'HTTPS: пользовательские запросы'
+}

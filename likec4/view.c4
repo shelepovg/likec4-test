@@ -1,0 +1,6 @@
+views {
+    view system of system{
+        include user
+        include *
+    }
+}
