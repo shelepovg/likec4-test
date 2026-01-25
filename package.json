@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "build:likec4": "likec4 build diagrams --output dist"
+    }
+  }
+  
