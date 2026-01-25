@@ -1,6 +1,8 @@
 {
     "scripts": {
-      "build:likec4": "likec4 build diagrams --output dist"
+        "build:likec4": "likec4 build diagrams --output dist"
+    },
+    "devDependencies": {
+        "likec4": "^1.47.0"
     }
-  }
-  
+}
