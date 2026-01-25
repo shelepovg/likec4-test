@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build:likec4": "likec4 build likec4 --output dist"
+        "build:likec4": "likec4 build likec4 --output dist --base /likec4-test/"
     },
     "devDependencies": {
         "likec4": "^1.47.0"
