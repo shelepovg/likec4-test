@@ -1,8 +1,11 @@
 {
-    "scripts": {
-        "build:likec4": "likec4 build likec4 --output dist --base /likec4-test/"
-    },
+    "name": "likec4-diagrams",
+    "private": true,
     "devDependencies": {
-        "likec4": "^1.47.0"
+      "likec4": "^1.47.0"
+    },
+    "scripts": {
+      "build:likec4": "likec4 build likec4 --output dist --base /likec4-test/"
     }
-}
+  }
+  

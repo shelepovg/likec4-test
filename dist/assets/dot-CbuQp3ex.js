@@ -1,1 +1,0 @@
-import{_ as t}from"./main-CnFOUF97.js";import"./likec4-a5kc96J7.js";import"./e-DJqzgwkh.js";import"./i-FtFScQl3.js";import"./o-BkXc4xk3.js";let i={default:()=>t(()=>import("./dot-C1bzr9B3.js"),[])};async function p(o){const r=i[o];if(!r)throw new Error("Unknown projectId: "+o);return await r()}export{p as loadDotSources,i as loadDotSourcesFn};
